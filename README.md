@@ -46,7 +46,7 @@ This challenge has three parts that must be completed in order:
 **Part 1: Access the New York Times API**
 1. I consulted the New York Times Article Search API documentation to build my query URL using the variables included in the starter code.
 
-> Fields used to build my query URL:
+- Fields used to build my query URL:
     > **Base URL** = "https://api.nytimes.com/svc/search/v2/articlesearch.json?"
     >
     > **filter_query** = 'section_name:"Movies" AND type_of_material:"Review" AND headline:"love"'
@@ -94,7 +94,7 @@ This challenge has three parts that must be completed in order:
 
 - The search query is used to find the movie ID from the search by title. Most of this query was included in the starter code, as follows, but I needed to include the movie title in the query.  I got the movies titles from the titles list that I created from the New York Times query above.
 
-> Prepare The Movie Database query:
+- Prepare The Movie Database query:
     > **url** = "https://api.themoviedb.org/3/search/movie?query="
     >  **tmdb_key_string** = "&api_key=" + tmdb_api_key
 - The movie query is made after I get the movie ID.
