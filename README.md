@@ -136,7 +136,7 @@ This challenge has three parts that must be completed in order:
         - Loop through the characters_to_remove and use the Pandas str.replace() method to remove the character from the string.
     - Print the head of the updated DataFrame to confirm the list characters were removed.
 3. Deleted any duplicate rows and reset the index.
-4. Exported data to a CSV file without the DataFrame's index.
+4. Exported data to a CSV file, "merged_nyt_tmdb_df.csv", without the DataFrame's index.
 
 
 ## Help
